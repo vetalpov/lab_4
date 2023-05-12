@@ -38,7 +38,7 @@ public class Program
         }
         else
         {
-            Console.WriteLine("Тариф не знайдено");
+            Console.WriteLine("Тариф не ");
         }
 
         Console.ReadLine();

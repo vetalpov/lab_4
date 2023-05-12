@@ -31,15 +31,7 @@
         return true;
     }
 
-    public override int GetHashCode()
-    {
-        return base.GetHashCode();
-    }
 
-    public override string ToString()
-    {
-        return base.ToString();
-    }
 }
 
 class Cuckoo : Bird
@@ -80,7 +72,7 @@ class Program
 {
     static void Main(string[] args)
     {
-        Bird bird = new Bird("Пташка");
+        Bird bird = new Bird("Пташкаа");
         bird.Fly();
         bird.Sing();
         bird.LayEggs();
